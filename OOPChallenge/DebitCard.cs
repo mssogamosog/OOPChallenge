@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace OOPChallenge
 {
-    public class PaymentMethod
+    public class DebitCard : PaymentMethod
     {
-        private int id;
-        public void authorize() {}
+        private double number;
+        private DateTime expDate;
     }
 }

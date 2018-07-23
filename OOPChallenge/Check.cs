@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOPChallenge
 {
-    public class PaymentMethod
+    public class Check
     {
-        private int id;
-        public void authorize() {}
+        private int number;
+        private int bankId;
+        private int holder;
     }
 }
