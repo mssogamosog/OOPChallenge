@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPChallenge
 {
-    class LineItem
+    public class LineItem
     {
         private int quantity;
         private double price;
