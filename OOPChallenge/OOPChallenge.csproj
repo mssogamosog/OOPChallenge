@@ -50,6 +50,8 @@
     <Compile Include="DebitCard.cs" />
     <Compile Include="Issuer.cs" />
     <Compile Include="LineItem.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderStatus.cs" />
     <Compile Include="PaymentMethod.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
