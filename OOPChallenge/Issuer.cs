@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOPChallenge
 {
-    public class DebitCard : PaymentMethod
+    public enum Issuer
     {
-        private double number;
-        private DateTime expDate;
-        private Issuer issuer;
+        AMEX = 1,
+        VISA = 2,
+        MASTERCARD = 3,
     }
 }

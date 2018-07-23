@@ -12,5 +12,6 @@ namespace OOPChallenge
         private double number;
         private DateTime expDate;
         private int maxInstallElemtens;
+        private Issuer issuer;
     }
 }

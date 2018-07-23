@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace OOPChallenge
 {
-    public class DebitCard : PaymentMethod
-    {
-        private double number;
-        private DateTime expDate;
-        private Issuer issuer;
+    public enum AccountStatus
+    {  
+        ACTIVE = 1,
+        BLOCKED = 2,
+        CLOSED = 3,
     }
+
+
 }
+
+
+
