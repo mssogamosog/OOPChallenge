@@ -12,8 +12,6 @@ namespace OOPChallenge
         BLOCKED = 2,
         CLOSED = 3,
     }
-
-
 }
 
 
